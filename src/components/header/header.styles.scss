@@ -1,0 +1,28 @@
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 16px 0;
+	margin-bottom: 16px;
+
+	.navigation {
+		display: inherit;
+		justify-content: inherit;
+
+		li:not(:last-child) {
+			margin-right: 32px;
+		}
+	}
+
+	a {
+		color: #cccccc;
+
+		&:hover {
+			color: #5e5e5e;
+		}
+	}
+
+	a.active {
+		color: #5e5e5e;
+	}
+}

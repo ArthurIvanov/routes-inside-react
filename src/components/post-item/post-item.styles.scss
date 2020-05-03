@@ -1,0 +1,12 @@
+.post-item {
+	margin-bottom: 40px;
+	color: #4b4b4b;
+
+	.post-text {
+		line-height: 24px;
+	}
+
+	*:not(:last-child) {
+		margin-bottom: 16px;
+	}
+}

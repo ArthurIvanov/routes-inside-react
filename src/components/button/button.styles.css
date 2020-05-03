@@ -1,0 +1,43 @@
+.button {
+	outline: none;
+	border: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 8px 16px;
+	background-color: #1c1c1f;
+	color: #ededf5;
+	opacity: 1;
+	transition: all 0.3s;
+}
+
+button:not(:last-child) {
+	margin-right: 32px;
+}
+
+.button:hover {
+	opacity: 0.8;
+	box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.16);
+}
+
+.signin {
+	background-color: #39becf;
+}
+
+.signup {
+	background-color: #39cfa2;
+}
+
+.rounded {
+	border-radius: 120px;
+}
+
+.post {
+	border: 1px solid #1c1c1f;
+	background-color: white;
+	color: #1c1c1f;
+}
+
+.post:hover {
+	background-color: #1c1c1f;
+	color: #ededf5;
+}
